@@ -2,6 +2,7 @@ import express, { Request, Response } from 'express'
 
 const app = express()
 
+// todo .env
 const port = 3000
 
 app.get('/', (req: Request, res: Response) => {
