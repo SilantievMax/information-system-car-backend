@@ -1,0 +1,12 @@
+{
+	"trailingComma": "none",
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"arrowParens": "avoid",
+	"printWidth": 150,
+	"importOrder": ["<THIRD_PARTY_MODULES>", "", "^@/database/(.*)$", "", "^@/routes/(.*)$", "", "^@/controllers/(.*)$", "", "^../(.*)", "", "^./(.*)"],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
