@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import { errMessage } from '../common/const.js'
 
-export const getCars = (req: Request, res: Response) => {
+export const getOrders = (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
@@ -9,7 +9,7 @@ export const getCars = (req: Request, res: Response) => {
 	}
 }
 
-export const getCar = (req: Request, res: Response) => {
+export const getOrder = (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
@@ -17,7 +17,7 @@ export const getCar = (req: Request, res: Response) => {
 	}
 }
 
-export const createCar = (req: Request, res: Response) => {
+export const createOrder = (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
@@ -25,7 +25,7 @@ export const createCar = (req: Request, res: Response) => {
 	}
 }
 
-export const updateCar = (req: Request, res: Response) => {
+export const updateOrder = (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
@@ -33,7 +33,7 @@ export const updateCar = (req: Request, res: Response) => {
 	}
 }
 
-export const deleteCar = (req: Request, res: Response) => {
+export const deleteOrder = (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {

@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { createCar, deleteCars, getCar, getCars, updateCar } from '../controllers/cars.js'
+import { createCar, deleteCar, getCar, getCars, updateCar } from '../controllers/cars.js'
 
 const router = Router()
 
@@ -16,6 +16,6 @@ router.get('/:id', getCar)
 router.patch('/:id', updateCar)
 
 // DELETE /cars/:id - удаляет автомобиль.
-router.delete('/:id', deleteCars)
+router.delete('/:id', deleteCar)
 
 export { router as routerCars }
