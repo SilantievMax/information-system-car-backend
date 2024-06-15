@@ -10,7 +10,8 @@
 		"build": "tsc",
 		"debug": "nodemon --inspect src/index.js",
 		"lint": "eslint ./src",
-		"format": "eslint ./src --fix"
+		"format": "eslint ./src --fix",
+		"mongo": "docker-compose up"
 	},
 	"keywords": [],
 	"author": "",
