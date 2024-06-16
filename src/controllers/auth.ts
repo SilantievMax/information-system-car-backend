@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import { errMessage } from '../common/const.js'
 
-export const registration = (req: Request, res: Response) => {
+export const registration = async (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
@@ -9,7 +9,7 @@ export const registration = (req: Request, res: Response) => {
 	}
 }
 
-export const login = (req: Request, res: Response) => {
+export const login = async (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
@@ -17,7 +17,7 @@ export const login = (req: Request, res: Response) => {
 	}
 }
 
-export const getMe = (req: Request, res: Response) => {
+export const getMe = async (req: Request, res: Response) => {
 	try {
 		res.status(200)
 	} catch (err) {
